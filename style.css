@@ -1,0 +1,260 @@
+@font-face{
+	font-family: font1;
+	src: url("fonts/fonts.ttf");
+}
+@font-face{
+	font-family: font2;
+	src:url("fonts/fonts2.otf");
+}
+body{
+	margin: 0;
+	background-color: #000;
+	color:#fff;
+	padding-top: 80px;
+}
+#top-menu{
+	font-family: font1;
+	position:fixed;
+	z-index: 1;
+	top: 0;
+	left:0;
+	right:0;
+	background-color: #010;
+	width: 100%;
+	height: 80px;
+	text-align:center;
+}
+#ad-top-menu{
+	font-family: monospace;
+	text-align: center;
+}
+#ad-top-mena. a{
+	color:#aaa; 
+	margin-left:10px;
+	margin-right: 10px;
+}
+#content-box{
+	background-color: #002;
+	width: 1100px;
+	min-height: 160px;
+	border-left:groove 5px #222;
+	border-right:groove 5px #444;
+	margin: auto;
+}
+#top-menu a{
+	text-decoration: none;
+	
+}
+#top-menu .btn{
+	display: inline-block;
+	color: #fff;
+	background-color: #222;
+	font-size: 30px;
+	line-height: 30px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-right:7.5px;
+	margin-left:7.5px;
+	height: 30px;
+	vertical-align: middle;
+	transition-duration: 200ms;
+	box-shadow: 0 0 15px #000;
+	text-shadow: 0 0 3px #000;
+	transition-property: box-shadow;
+}
+#tmbtn1{
+	/*background-image: url(img/123.jpg);	*/
+}
+#tmbtn2{
+	
+}
+#tmbtn3{
+	
+}
+.box{
+	width: 100%;
+	position: relative;
+}
+.box-img{
+	width: 100%;
+}
+#tm-logo img{
+	height: 100%;
+}
+#box1 .inner-box{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	padding-left: 10%;
+	padding-top: 10%;
+
+}
+#box1 .inner-box .big-text{
+	font-size: 40px;
+	color: #000;
+	text-shadow:0 0 5px #fff;
+}
+#box1 .inner-box .small-text{
+	font-size: 30px; 
+	color:#fff;
+	text-shadow:0 0 2px #fff;
+	font-family: monospace;
+}
+#box1 .inner-box a{
+	text-decoration: none;
+}
+#box1 .inner-box .btn{
+	width: 250px;
+	padding: 10px;
+	border: ridge 5px #f00;
+	background-color: #333;
+	color:#fff;
+	font-size:30px;
+	text-align:center;
+	font-family:monospace;
+	text-shadow: 0 2px 3px #000;
+}
+#box1 .inner-box .btn:hover{
+	background-color: #666;
+}
+#footer{
+	padding-top: 50px;
+	padding-bottom:50px;
+	text-align: center;
+	font-size: 24px;
+	background-color: #111;
+}
+#footer a{
+	color: #fff;
+	text-decoration: none;
+}
+#footer a:hover{
+	text-decoration:underline;
+}
+#box2{
+	background-color:rgb(0, 0, 0);
+}
+#box2 table{
+	border-color: #f00;
+	margin:auto;
+}
+#box2 table tr{
+	border:solid;
+	background-color: ;
+}
+#box2 table tr td{
+	position: relative;
+	height: 200PX;
+	width:200PX;
+	overflow: hidden;
+	font-family: font2;
+}
+#box2 .el{
+	position: relative;
+	font-size: 0;
+	overflow: hidden;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	transition-duration:200ms;
+}
+#box2 .el img{
+	position: relative;
+	font-size: 0;
+	overflow: hidden;
+	width: 100%;
+	height:100%;
+	background-size: cover;
+	background-position: center center;
+	transition-property:tra
+}
+#el1{
+	background-image:url(img/5.jpg);
+}
+#el2{
+	background-image: url(img/6.jpg);
+}#el3{
+	background-image: url(img/17.jpg);
+}#el4{
+	background-image: url(img/5.jpg);
+}#el5{
+	background-image: url(img/9.jpg);
+}#el6{
+	background-image: url(img/8.jpg);
+}
+}#el7{
+	background-image: url(img/11.jpg);
+}
+
+#box2 .caption{
+	position: absolute;
+	padding: 5px;
+	max-height:50px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(224, 255, 255 ,0.7);
+	z-index: 1;
+	color: #000000
+}
+#box2 .caption .name{
+	max-height: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+#box2 .caption .text{
+	font-size: 0;
+	transition-duration: 200ms;
+	transition-duration: 200ms;
+	transition-property: font-size,padding-left,padding-right;
+}
+#box2 td:hover .caption .text{
+	font-size: 15px;
+	padding-left:0px;  
+	padding-right:0px;     
+}
+#box2 .caption .type{
+	position: absolute;
+	top: -10px;
+	padding: 2px;
+	background-color: rgb(#FFFFFF); 
+	color: #000;
+	line-height: 16px;
+	left: 50%;
+	transform:translateX(-50%);
+}
+#adv-panel{
+	position: fixed;
+	z-index: 99999999999;
+	height: 100%;
+	width:100%;
+	opacity: 0;
+	background-size: cover;
+	background-position: center center;
+	background-image: url(img/19.jpg);
+	pointer-events: none;
+	transition-duration: 5s;
+	transition-property: opacity;
+}
+#adv-panel-1{
+	position: fixed;
+	z-index: 99999999999;
+	height: 100%;
+	width:100%;
+	opacity: 0;
+	background-size: cover;
+	background-position: center center;
+	background-image: url(img/19.jpg);
+	pointer-events: none;
+	transition-duration: 5s;
+	transition-property: opacity;
+}
+#adv-panel-2{	
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-image: url(img/19.jpg);
+}
